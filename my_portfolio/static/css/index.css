@@ -1,0 +1,19 @@
+div.container3 {
+   height: 2em;
+   font-family:courier;
+   font-size:300%;
+   color:#330033;
+
+   position: relative }              /* 1 */
+div.container3  {
+   margin: 0;
+   position: absolute;               /* 2 */
+   top: 40%;                         /* 3 */
+    }
+
+div.contacts{
+top:40%;
+ height: 2em;
+ position: absolute;
+ margin: 0;
+}

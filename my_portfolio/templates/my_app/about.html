@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+{% extends "my_app/base.html"%}
+{% load staticfiles %}
+
+{% block body_block %}
+<br/>
+<div class="row">
+    <div class = "col-lg-8 float-right">
+        <img src="{% static 'images/create.png'%}" style="width:400px;height:300px;">
+    </div>
+    <div class = "col-lg-4 float-left">
+        <h1 style="color:#330033"><b>About Me</b></h1>
+        <p style="color:#330033">I am proficient in <b>Data science and machine learning</b> and also has hand on web designing. I am skilled in
+        data, image and video processing.</p>
+
+    </div>
+
+
+
+    </div><hr>
+   <div class="row">
+        <div class = "col-lg-4 float-left">
+        <h1 style="color:#330033"><b>LANGUAGES</b></h1>
+        <ul style="color:#330033">
+            <li>
+                PYTHON
+            </li>
+            <li>C</li>
+                        <li>HTML</li>
+            <li>CSS</li>
+            <li>JAVASCRIPT</li>
+            <li>PHP</li>
+        </ul>
+
+
+    </div>
+     <div class = "col-lg-4 float-left">
+        <h1 style="color:#330033"><b>LIBRARIES</b></h1>
+        <ul style="color:#330033">
+            <li>
+                OPENCV
+            </li>
+            <li>NUMPY</li>
+                        <li>PANDAS</li>
+            <li>MATPLOTLIB</li>
+            <li>SCIKIT LEARN</li>
+            <li>SEABORN</li>
+            <li>PLOTLY AND CUFFLINKS</li>
+        </ul>
+
+   </div>
+         <div class = "col-lg-4 float-left">
+        <h1 style="color:#330033"><b>INTERESTS</b></h1>
+        <ul style="color:#330033">
+            <li>
+                DATA SCIENCE
+            </li>
+            <li>MACHINE LEARNING</li>
+                        <li>NLP</li>
+            <li>ARTIFICIAL INTELLIGENCE</li>
+            <li>WEB DEVELOPMENT(DJANGO)</li>
+
+        </ul>
+
+   </div>
+
+
+{% endblock %}
